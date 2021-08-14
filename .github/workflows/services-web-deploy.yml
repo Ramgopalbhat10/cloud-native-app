@@ -15,7 +15,7 @@ jobs:
       - name: Bootstrap all services
         run: npm run bootstrap
       - name: Deploy the web service
-        run: npm run deploy --prefix firebase
+        run: npm run deploy
         env: 
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
