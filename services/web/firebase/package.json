@@ -4,8 +4,8 @@
   "description": "The web service's Firebase project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "firebase:login": "firebase login"
+    "firebase:login": "firebase login",
+    "deploy": "firebase deploy"
   },
   "author": "ramgopalbhat",
   "license": "ISC",
