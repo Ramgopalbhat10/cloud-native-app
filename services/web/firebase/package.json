@@ -1,0 +1,15 @@
+{
+  "name": "web-firebase",
+  "version": "1.0.0",
+  "description": "The web service's Firebase project",
+  "main": "index.js",
+  "scripts": {
+    "firebase:login": "firebase login",
+    "deploy": "firebase deploy"
+  },
+  "author": "ramgopalbhat",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^9.16.3"
+  }
+}
