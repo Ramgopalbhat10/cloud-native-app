@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "firebase:login": "firebase login",
+    "dev": "firebase serve",
     "deploy": "firebase deploy"
   },
   "author": "ramgopalbhat",
